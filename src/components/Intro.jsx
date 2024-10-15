@@ -89,7 +89,7 @@ function Intro({ theme }) {
                 >
                   &nbsp;Python, Node.js, Express.js and FastAPI.&nbsp;
                 </RoughNotation>
-                On one end I&apos;ve built an internal product used just by the
+                On one end I&apos;ve built an internal products used just by the
                 company and on the other end I have built products that are
                 being used by millions of users. I also have experience working
                 with cloud platforms like

@@ -1,167 +1,113 @@
+import Svg from "./Svg";
+
 function Timeline() {
   return (
-    <>
-    <div className="">
-      <div>
-      <h2 className="text-3xl font-thin my-8 ml-4">My Journey</h2>
-      </div>
-      <ul className="timeline timeline-vertical">
-        <li>
-          <div className="timeline-start">2013</div>
-          <div className="timeline-middle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
-          <div className="timeline-end timeline-box">
-            Bachelors in Electronics and Communication Engineering
-          </div>
-          <hr />
-        </li>
-        <li>
-          <hr />
-          <div className="timeline-start">2017</div>
-          <div className="timeline-middle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
-          <div className="timeline-end timeline-box">
-            Software Developer at Virtus (Start up)
-          </div>
-          <hr />
-        </li>
-        <li>
-          <hr />
-          <div className="timeline-start">2018</div>
-          <div className="timeline-middle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
-          <div className="timeline-end timeline-box">
-            Software Engineer at Mantra Group (Startup)
-          </div>
-          <hr />
-        </li>
-        <li>
-          <hr />
-          <div className="timeline-start">2020</div>
-          <div className="timeline-middle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
-          <div className="timeline-end timeline-box">
-            Senior Software Engineer at Nisum
-          </div>
-          <hr />
-        </li>
-        <li>
-          <hr />
-          <div className="timeline-start">2023</div>
-          <div className="timeline-middle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
-          <div className="timeline-end timeline-box">
-            Masters in Computer Software Engineering at New Jersey Institute of
-            Technology
-          </div>
-        </li>
+    <div className="p-6">
+      <section className="mb-6">
+        <h2 className="text-4xl font-thin mb-2 underline decoration-indigo-500/30">
+          My Journey
+        </h2>
+      </section>
 
-        <li>
-          <hr />
-          <div className="timeline-start">2023</div>
-          <div className="timeline-middle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
-          <div className="timeline-end timeline-box">
-            Software Engineer at Prudential
-          </div>
-        </li>
-
-        <li>
-          <hr />
-          <div className="timeline-start">2024</div>
-          <div className="timeline-middle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="h-5 w-5"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </div>
-          <div className="timeline-end timeline-box">
-            Graduation from New Jersey Institute of Technology
-          </div>
-        </li>
-      </ul>
+      <div className="flex justify-start">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+          {/* Bachelor's Degree */}
+          <li>
+            <div className="timeline-middle">
+              <Svg name="college" />
+            </div>
+            <div className="timeline-start mb-10 md:text-end">
+              <time className="font-mono italic">2013</time>
+              <div className="text-lg font-black">Bachelor&apos;s Degree</div>
+              Bachelors in Electronics and Communication Engineering at
+              Jawaharlal Nehru Technological University
+            </div>
+            <hr />
+          </li>
+          {/* Software Developer at Virtus */}
+          <li>
+            <hr />
+            <div className="timeline-middle">
+              <Svg name="work" />
+            </div>
+            <div className="timeline-end mb-10">
+              <time className="font-mono italic">2017</time>
+              <div className="text-lg font-black">
+                Software Developer at Virtus
+              </div>
+              Developed an order management and delivery application using
+              TypeScript, Angular 4, Node.js, and Express.js. Integrated with
+              Google Maps API for order tracking and implemented Redis for
+              improved performance.
+            </div>
+            <hr />
+          </li>
+          {/* Software Engineer at Mantra */}
+          <li>
+            <hr />
+            <div className="timeline-middle">
+              <Svg name="work" />
+            </div>
+            <div className="timeline-start mb-10 md:text-end">
+              <time className="font-mono italic">2018</time>
+              <div className="text-lg font-black">
+                Software Engineer at Mantra
+              </div>
+              Engineered AI-powered scheduling software and implemented project
+              management software. Integrated with third-party apps and designed
+              RESTful APIs. Created CI/CD pipelines using GitLab CI.
+            </div>
+            <hr />
+          </li>
+          {/* Senior Software Engineer at Nisum */}
+          <li>
+            <hr />
+            <div className="timeline-middle">
+              <Svg name="work" />
+            </div>
+            <div className="timeline-end mb-10">
+              <time className="font-mono italic">2020</time>
+              <div className="text-lg font-black">
+                Senior Software Engineer at Nisum
+              </div>
+              Designed reusable Vue.js components for Micro Frontend
+              Architecture. Conducted A/B testing, published Node.js packages,
+              and enhanced code reliability through Jest unit testing.
+            </div>
+            <hr />
+          </li>
+          {/* Master's Degree */}
+          <li>
+            <hr />
+            <div className="timeline-middle">
+              <Svg name="college" />
+            </div>
+            <div className="timeline-start mb-10 md:text-end">
+              <time className="font-mono italic">2023</time>
+              <div className="text-lg font-black">Master&apos;s Degree</div>
+              Masters in Computer Software Engineering at New Jersey Institute
+              of Technology
+            </div>
+            <hr />
+          </li>
+          {/* Future Aspirations */}
+          <li>
+            <hr />
+            <div className="timeline-middle">
+              <Svg name="work" />
+            </div>
+            <div className="timeline-end mb-10">
+              <time className="font-mono italic">2025</time>
+              <div className="text-lg font-black">Future Aspirations</div>
+              Seeking new opportunities to apply my advanced skills and
+              knowledge in software engineering. Aiming to contribute to
+              innovative projects and continue growing as a professional in the
+              tech industry.
+            </div>
+          </li>
+        </ul>
       </div>
-    </>
+    </div>
   );
 }
 

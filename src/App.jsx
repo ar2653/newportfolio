@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Timeline from "./components/Timeline";
 import posthog from "posthog-js";
 // import Footer from './components/Footer';
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/timeline" element={<Timeline />} />
         </Routes>
       </Router>
     </div>
