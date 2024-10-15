@@ -23,6 +23,8 @@ function Projects() {
               title={project.name}
               description={project.description}
               image={project.image}
+              link={project.link}
+              openInNewTab={true}
             />
           ))}
         </div>
@@ -40,6 +42,8 @@ function Projects() {
               title={project.name}
               description={project.description}
               image={project.image}
+              link={project.link}
+              openInNewTab={true}
             />
           ))}
         </div>
