@@ -35,7 +35,7 @@ function Intro({ theme }) {
                 >
                 developer&nbsp;
                 </RoughNotation>
-                based in United States.
+                based in New York.
               </h1>
               <p className="font-extralight mt-2">
                 I&apos;m a Computer Software Engineering graduate from &nbsp;
