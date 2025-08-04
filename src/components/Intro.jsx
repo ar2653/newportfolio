@@ -26,16 +26,16 @@ function Intro({ theme }) {
             <div>
               <h1 className="text-4xl md:text-5xl">
                 {/* <p>{theme} {notationType}</p> */}
-                Hello! I&apos;m Ankush, a&nbsp; 
+                Hello! I&apos;m Ankush, an&nbsp;
                 <RoughNotation
                   type={notationType}
                   color="orange"
                   order="1"
                   animationDelay="1000"
                 >
-                developer&nbsp;
+                  SDE&nbsp;
                 </RoughNotation>
-                based in New York.
+                based in Bellevue, WA.
               </h1>
               <p className="font-extralight mt-2">
                 I&apos;m a Computer Software Engineering graduate from &nbsp;
@@ -50,8 +50,18 @@ function Intro({ theme }) {
                 </RoughNotation>
                 <br />
                 <br />
-                For the past 6 moths I&apos;ve worked for Prudential Financial
-                on infrastructure development using AWS.
+                Since April 2025, I&apos;ve been working at
+                <RoughNotation
+                  type="circle"
+                  color="#FF9900"
+                  order="3"
+                  animationDelay="1000"
+                  multiline="true"
+                >
+                &nbsp;Amazon
+                </RoughNotation>
+                , building interesting systems.
+                <br />
                 <br />
                 Prior to my Masters in US, I have
                 <RoughNotation
@@ -87,7 +97,7 @@ function Intro({ theme }) {
                   order="4"
                   animationDelay="1000"
                 >
-                  &nbsp;Python, Node.js, Express.js and FastAPI.&nbsp;
+                  &nbsp;Java, Python, Node.js, Express.js and FastAPI.&nbsp;
                 </RoughNotation>
                 On one end I&apos;ve built an internal products used just by the
                 company and on the other end I have built products that are
@@ -103,12 +113,17 @@ function Intro({ theme }) {
                   &nbsp;AWS and Azure.&nbsp;
                 </RoughNotation>
                 <br />
-                <br />
+                {/* <br />
                 I&apos;m currently looking for full time opportunities as a
                 Software Engineer.
-                <RoughNotation type="circle" multiline="true" color="red" order="5">
+                <RoughNotation
+                  type="circle"
+                  multiline="true"
+                  color="red"
+                  order="5"
+                >
                   &nbsp;Hire me?&nbsp;
-                </RoughNotation>
+                </RoughNotation> */}
               </p>
               {/* Buttons  */}
               <div className="py-6 flex space-x-6">

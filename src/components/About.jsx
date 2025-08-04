@@ -22,7 +22,7 @@ const About = function () {
             Full-Stack Software Engineer with 5+ years of experience building
             scalable web applications using
             <RoughNotation type="underline" multiline="true" color="#f472b6" order="1" show="true" animationDelay="1000">
-            &nbsp;JavaScript, React, Angular, Vue.js, Node.js, Python, Docker, and AWS.&nbsp;
+            &nbsp;Java, JavaScript, React, Angular, Vue.js, Node.js, Python, Docker, and AWS.&nbsp;
             </RoughNotation>
             <span className="underline decoration-sky-400"></span>
             <br/>
